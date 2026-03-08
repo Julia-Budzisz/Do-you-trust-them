@@ -1,5 +1,8 @@
 using UnityEngine;
 
+// Represents an interactable item in the world that the player can approach
+// and inspect, including displaying an interaction prompt when in range.
+
 public class PickupableItem : MonoBehaviour
 {
     // Prefab used for displaying the item in inspection mode

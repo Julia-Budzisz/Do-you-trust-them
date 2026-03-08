@@ -1,5 +1,8 @@
 using UnityEngine;
 
+// Handles opening and closing the in-game pause menu,
+// including time control, cursor state, and audio behaviour.
+
 public class MenuView : MonoBehaviour
 {
     // UI panel containing the pause menu

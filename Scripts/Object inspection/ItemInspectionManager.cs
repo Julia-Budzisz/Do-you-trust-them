@@ -2,6 +2,9 @@ using UnityEngine;
 using UnityEngine.Rendering;
 using TMPro;
 
+// Handles item inspection mode, including spawning the inspection prefab,
+// rotating the item with mouse input, disabling player controls, and managing UI and audio state.
+
 public class ItemInspectionManager : MonoBehaviour
 {
     // UI displayed during item inspection

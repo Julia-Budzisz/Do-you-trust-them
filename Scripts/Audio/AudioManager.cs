@@ -1,6 +1,9 @@
 using UnityEngine;
 using UnityEngine.Audio;
 
+// Centralized audio controller responsible for playing ambient sounds,
+// sound effects, interaction audio, and managing audio mixer volumes.
+
 public class AudioManager : MonoBehaviour
 {
     // Audio sources responsible for different types of sounds

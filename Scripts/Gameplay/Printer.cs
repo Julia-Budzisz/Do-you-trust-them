@@ -3,6 +3,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
+// Controls printer interaction, including switching cameras,
+// displaying printed images in UI slots, and managing player interaction state.
+
 public class Printer : MonoBehaviour
 {
     // Main gameplay camera
