@@ -14,7 +14,7 @@ I stared with the inspection system, along with the pick up ability for the play
 - How to work with audio in unity
 - How to switch between cameras, and have several canvases in the project
 - I improved working with UI
-- Creating scripts and systems with other programmers 
-
+- Creating scripts and systems with other programmers
+  # Gameplay
 
 
