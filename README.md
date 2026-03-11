@@ -16,5 +16,5 @@ I stared with the inspection system, along with the pick up ability for the play
 - I improved working with UI
 - Creating scripts and systems with other programmers
   # Gameplay
-[![Watch the demo](Screenshots/preview.png)](Screenshots/Gameplay.mp4)
+
 
