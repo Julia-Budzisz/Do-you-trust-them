@@ -1,8 +1,5 @@
 using UnityEngine;
 
-// Handles opening and closing the in-game pause menu,
-// including time control, cursor state, and audio behaviour.
-
 public class MenuView : MonoBehaviour
 {
     // UI panel containing the pause menu
@@ -12,7 +9,7 @@ public class MenuView : MonoBehaviour
     [SerializeField] private AudioManager audioManager;
 
     // Determines if the menu can currently be opened
-    private bool isMenuAvailable = true;
+    public bool isMenuAvailable = true;
 
     // Tracks whether the menu is currently open
     private bool isMenuOpen = false;
