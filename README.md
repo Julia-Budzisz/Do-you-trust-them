@@ -18,7 +18,7 @@ I stared with the inspection system, along with the pick up ability for the play
   # Gameplay
 <p align="center">
   <video controls width="100%">
-    <source src="screenshots/gameplay.mp4" type="video/mp4">
+    <source src="Screenshots/Gameplay.mp4" type="video/mp4">
   </video>
 </p>
 
