@@ -124,7 +124,12 @@ public class ItemInspectionManager : MonoBehaviour
         menuView.SetAccess(true);
 
         // Restore footstep sounds
-        audioManager.UnmuteSteps();
+        if (audioManager != null)
+        {
+            audioManager.UnmuteSteps();
+
+        }
+            
     }
 
 }

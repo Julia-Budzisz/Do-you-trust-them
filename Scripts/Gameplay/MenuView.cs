@@ -1,5 +1,7 @@
 using UnityEngine;
 
+//Controls pause menu and its access 
+
 public class MenuView : MonoBehaviour
 {
     // UI panel containing the pause menu

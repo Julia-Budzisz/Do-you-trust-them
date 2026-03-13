@@ -75,10 +75,9 @@ public class Printer : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
 
-        if (printerCanvas != null)
-        {
-            printerCanvas.SetActive(true);
-        }
+      
+         printerCanvas.SetActive(true);
+        
 
         // Play printer sound and mute footsteps
         if (audioManager != null)
@@ -104,14 +103,14 @@ public class Printer : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
 
-        // Hide printer UI
-        if (printerCanvas != null)
-        {
-            printerCanvas.SetActive(false);
+        printerCanvas.SetActive(false);
 
-        }
         // Restore footsteps sound
-        audioManager.UnmuteSteps();
+        if (audioManager != null)
+        {
+            audioManager.UnmuteSteps();
+        }
+            
     }
 
     private void OnTriggerEnter(Collider other)
